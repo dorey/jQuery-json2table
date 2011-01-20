@@ -1,0 +1,5 @@
+Converts a JSON structure into a table with simple css classes.
+
+The difficult part is getting the 'rowspan' attribute to match the number
+of children to be displayed. If this value is off, it shifts values all
+over the place.

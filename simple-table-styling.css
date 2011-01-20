@@ -1,0 +1,37 @@
+table {
+	border-spacing: 0px;
+	vertical-align: top;
+}
+table td {
+	vertical-align: top;
+	padding: 2px 10px;
+}
+table tr:first-child td:first-child {
+	border-left: 1px solid #888;
+}
+td.key:after {
+	content: ':';
+}
+td.key {
+	text-align: right;
+}
+td.key {
+	padding-right: 1px;
+	border: 0 none;
+}
+td.val {
+	color: #f00;
+	border: 0 none;
+}
+td.key, td.val {
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
+td.val {
+	border-right: 1px solid #bbb;
+}
+td.children {
+	border-right: 2px solid #888;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+}
