@@ -9,7 +9,7 @@
             $.each(data, function(k, v){
                 if($.type(v)==='string' || $.type(v)==='number' || $.type(v)==='null') {
                     _t[k] = new JsonTableKeyValue(k, v);
-                } else if($.type(v)==='object') {
+                } else if($.type(v)==='object' || $.type(v)==='array') {
                     _t[k] = new JsonTableObject(k, v);
                 } else { /*--  console.log($.type(v)) --*/ }
             });
